@@ -1,0 +1,115 @@
+name: Hiba jelentése
+description: Jelents egy hibát, majd válaszd ki label segítségével a prioritást.
+body:
+  - type: input
+    attributes:
+      label: "Plugin verziója:"
+      description: "A hibás plugin és a StormCore verziója (pl. a /version <plugin> parancs kimenete)."
+      placeholder: "Pld. StormLogger 2.0.2, StormCore 2.3.0"
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Milyen szerveren van a hiba?
+      description: Jelöld be az összes szervertípust, amin a hiba megtalálható.
+      options:
+        - label: Velocity
+          required: false
+        - label: Carbon
+          required: false
+        - label: PurPur
+          required: false
+        - label: Folia
+          required: false
+        - label: Egyéb [Lentebb leírom]
+          required: false
+  - type: input
+    attributes:
+      label: "Egyéb szerver:"
+      placeholder: "Pld. HamburgerSpigot"
+    validations:
+      required: false
+  - type: checkboxes
+    attributes:
+      label: Melyik Java verziót fut a szerver?
+      description: Jelöld be az összes szerver Java verzióját, amin a hiba előfordul.
+      options:
+        - label: Eclipse Temurin 25
+          required: false
+        - label: GraalVM 25
+          required: false
+        - label: Egyéb [Lentebb leírom]
+          required: false
+  - type: input
+    attributes:
+      label: "Egyéb Java verzió:"
+      placeholder: "Pld. OpenJDK 18"
+    validations:
+      required: false
+  - type: checkboxes
+    attributes:
+      label: Milyen Minecraft verzión fut a szerver?
+      description: Jelöld be az összes szerver Minecraft verzióját, amin a hiba előfordul.
+      options:
+        - label: "1.8.9"
+          required: false
+        - label: "1.18.2"
+          required: false
+        - label: "1.20.4"
+          required: false
+        - label: "26.1 (Legújabb mc verzió)"
+          required: false
+        - label: Egyéb [Lentebb leírom]
+          required: false
+  - type: input
+    attributes:
+      label: "Egyéb Minecraft verzió:"
+      placeholder: "Pld. 27.3 vagy 1.17.1"
+    validations:
+      required: false
+  - type: checkboxes
+    attributes:
+      label: Hogyan lett felfedezve a hiba?
+      description: Jelöld be, hogy hogyan derült ki a hiba.
+      options:
+        - label: Játékos jelentette
+          required: false
+        - label: Tesztelő jelentette
+          required: false
+        - label: Csapattag jelentette
+          required: false
+        - label: Fejlesztő vette észre
+          required: false
+  - type: textarea
+    attributes:
+      label: Mi a szerver(ek) neve ahol a hiba történt?
+      description: "Sok szerver esetén elég csoportosítva is pl. BedWars alapú szerverek, lobbyk stb."
+      placeholder: "A szerverek pontos neve vagy csoportosított elnevezése ahol a hiba előfordult."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Pontosan hogyan idézhető elő a hiba?"
+      description: "Röviden, de a részletekre odafigyelve írd le, hogyan jön elő a hiba."
+      placeholder: "A hiba előidézésének részletes, de nem túlfogalmazott leírása, esetleg ezt prezentáló kép vagy videó anyag."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Mi a pontos hibaüzenet?"
+      description: "Illeszd be kép vagy szöveg formátumban a hibaüzenetet."
+      placeholder: "Error caused by: ConcurrentModificationException in hu.blockstorm....."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Minek kellene történnie ha nincs hiba?"
+      description: "Ha szükséges, írd ide hogy mi lenne a várt viselkedés hiba nélkül."
+      placeholder: "Pld. A /spawn beírásakor a spawnra kellene dobnia."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: "Egyéb információ"
+      description: Ide írj bármi egyéb információt amit esetleg fontosnak találnál.
+      placeholder: "Pld. A hiba csak a reggeli órákban fordul elő."
