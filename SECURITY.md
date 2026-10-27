@@ -2,7 +2,7 @@
 
 ## Sérülékenység bejelentése
 
-Ha biztonsági hibát találsz az BlockStormHU szervezet bármelyik repójában vagy az általunk üzemeltetett szolgáltatásokban, **ne nyiss róla nyilvános issue-t, pull requestet vagy vitát**.
+Ha biztonsági hibát találsz a BlockStormHU szervezet bármelyik repójában vagy az általunk üzemeltetett szolgáltatásokban, **ne nyiss róla nyilvános issue-t, pull requestet vagy vitát**.
 
 Jelezd privátban a GitHub biztonsági bejelentő felületén:
 **https://github.com/BlockStormHU/.github/security/advisories/new**
