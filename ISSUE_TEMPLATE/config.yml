@@ -1,1 +1,5 @@
 blank_issues_enabled: false
+contact_links:
+  - name: Hibajelentés és feladatok (OpenProject)
+    url: https://projects.stormteam.hu
+    about: A hibákat és feladatokat az OpenProjectben, a plugin saját alprojektjében vezetjük.
