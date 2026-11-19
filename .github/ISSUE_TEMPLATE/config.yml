@@ -1,5 +1,1 @@
 blank_issues_enabled: false
-contact_links:
-  - name: Report a security vulnerability
-    url: https://github.com/BlockStormHU/.github/security/advisories/new
-    about: Please report security problems privately here, not in a public issue. See the security policy.
