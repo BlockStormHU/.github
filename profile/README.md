@@ -24,12 +24,12 @@ open-source projects public.
 
 | Project | What it is |
 |---|---|
-| [ZNPCsPlus](https://github.com/BlockStormHU/ZNPCsPlus) | Interactable fake entities (NPCs) for Spigot |
-| [FastAsyncWorldEdit-Legacy](https://github.com/BlockStormHU/FastAsyncWorldEdit-Legacy) | FAWE for legacy Minecraft versions |
-| [Intave](https://github.com/BlockStormHU/Intave) | Anticheat |
-| [Gen-Splitting](https://github.com/BlockStormHU/Gen-Splitting) | Generator drop sharing for MBedwars |
-| [PhantomWorlds](https://github.com/BlockStormHU/PhantomWorlds) | World management for Bukkit servers |
-| [enhanced-server-sorter](https://github.com/BlockStormHU/enhanced-server-sorter) | Server folders for the Pelican panel |
+| [ZNPCsPlus](https://github.com/BlockStormHU/mc-znpcsplus-fork) | Interactable fake entities (NPCs) for Spigot |
+| [FastAsyncWorldEdit-Legacy](https://github.com/BlockStormHU/mc-fastasyncworldedit-legacy-fork) | FAWE for legacy Minecraft versions |
+| [Intave](https://github.com/BlockStormHU/mc-intave-fork) | Anticheat |
+| [Gen-Splitting](https://github.com/BlockStormHU/mc-gen-splitting-fork) | Generator drop sharing for MBedwars |
+| [PhantomWorlds](https://github.com/BlockStormHU/mc-phantomworlds-fork) | World management for Bukkit servers |
+| [enhanced-server-sorter](https://github.com/BlockStormHU/pelican-enhanced-server-sorter-fork) | Server folders for the Pelican panel |
 
 Each fork keeps its original license. Changes we make there are released under the same terms.
 
