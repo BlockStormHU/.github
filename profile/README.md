@@ -28,6 +28,7 @@ open-source projects public.
 | [FastAsyncWorldEdit-Legacy](https://github.com/BlockStormHU/FastAsyncWorldEdit-Legacy) | FAWE for legacy Minecraft versions |
 | [Intave](https://github.com/BlockStormHU/Intave) | Anticheat |
 | [Gen-Splitting](https://github.com/BlockStormHU/Gen-Splitting) | Generator drop sharing for MBedwars |
+| [PhantomWorlds](https://github.com/BlockStormHU/PhantomWorlds) | World management for Bukkit servers |
 | [enhanced-server-sorter](https://github.com/BlockStormHU/enhanced-server-sorter) | Server folders for the Pelican panel |
 
 Each fork keeps its original license. Changes we make there are released under the same terms.
